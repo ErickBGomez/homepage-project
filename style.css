@@ -66,11 +66,15 @@ a:visited {
   filter: drop-shadow(0 0 10px #00000049);
 }
 
-header {
+header,
+main {
   display: flex;
-  align-items: center;
   max-width: var(--containerMaxWidth);
   margin: 0 auto;
+}
+
+header {
+  align-items: center;
   filter: drop-shadow(0 0 10px #00000049);
 }
 
@@ -121,4 +125,8 @@ header .photo-container img {
 
 .profile-icons .devicon-twitter-original {
   font-size: 1.4rem;
+}
+
+main {
+  gap: 20px;
 }
