@@ -68,8 +68,18 @@ header {
   height: 300px;
 }
 
+header .photo-container img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
 .photo-container .description {
   position: absolute;
-  background: #000;
+  bottom: 10px;
+  background: #20252c99;
+  color: var(--whiteColor);
+  text-align: center;
   width: 100%;
+  padding: 8px 0;
 }
