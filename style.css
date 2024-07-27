@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  /* Colors */
+  --whiteColor: #fafafa;
+  --blackColor: #20252c;
+  --primaryColor: #50a587;
+  --smallTextColor: #565656;
+
+  /* Variables */
+  --containerMaxWidth: 1000px;
+  --containerPadding: 50px;
+  --cardsMinWidth: 255px;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
