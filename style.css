@@ -50,6 +50,13 @@ h3 {
   font-size: 0.611rem;
 }
 
+a,
+a:link,
+a:visited {
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+
 .container {
   padding: var(--containerVerticalPadding) var(--containerHorizontalPadding);
 }
