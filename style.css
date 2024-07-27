@@ -13,7 +13,8 @@
 
   /* Variables */
   --containerMaxWidth: 1000px;
-  --containerPadding: 50px;
+  --containerHorizontalPadding: 50px;
+  --containerVerticalPadding: 60px;
   --cardsMinWidth: 255px;
 }
 
@@ -47,4 +48,28 @@ h3 {
 
 .small {
   font-size: 0.611rem;
+}
+
+.container {
+  padding: var(--containerVerticalPadding) var(--containerHorizontalPadding);
+}
+
+.container.header {
+  background-color: var(--primaryColor);
+}
+
+header {
+  display: flex;
+}
+
+.photo-container {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.photo-container .description {
+  position: absolute;
+  background: #000;
+  width: 100%;
 }
