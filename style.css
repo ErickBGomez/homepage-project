@@ -137,9 +137,15 @@ main {
   flex-direction: column;
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--cardsMinWidth), 1fr));
+  gap: 22px;
+}
+
 .project-card {
   background-color: var(--whiteColor);
-  filter: drop-shadow(0 0 10px #00000049);
+  filter: drop-shadow(0 0 6px #0000003b);
 }
 
 .project-card img {
