@@ -26,6 +26,10 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   margin: 0;
 }
 
@@ -68,6 +72,10 @@ a:visited {
 
 .container {
   padding: var(--containerVerticalPadding) var(--containerHorizontalPadding);
+}
+
+.container.main {
+  flex: 1;
 }
 
 .container.header,
