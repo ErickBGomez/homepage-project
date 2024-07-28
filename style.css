@@ -50,6 +50,10 @@ h3 {
   font-size: 1.111rem;
 }
 
+p {
+  margin: 0;
+}
+
 .small {
   font-size: 0.8rem;
   color: var(--smallTextColor);
@@ -66,13 +70,18 @@ a:visited {
   padding: var(--containerVerticalPadding) var(--containerHorizontalPadding);
 }
 
-.container.header {
-  background-color: var(--primaryColor);
+.container.header,
+.container.footer {
   filter: drop-shadow(0 0 10px #00000049);
 }
 
+.container.header {
+  background-color: var(--primaryColor);
+}
+
 header,
-main {
+main,
+footer {
   display: flex;
   max-width: var(--containerMaxWidth);
   margin: 0 auto;
@@ -184,4 +193,13 @@ main {
 
 .project-card:hover {
   transform: scale(1.05);
+}
+
+.container.footer {
+  background-color: var(--blackColor);
+}
+
+footer {
+  gap: 70px;
+  color: var(--whiteColor);
 }
