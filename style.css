@@ -146,6 +146,7 @@ main {
 .project-card {
   background-color: var(--whiteColor);
   filter: drop-shadow(0 0 6px #0000003b);
+  transition: transform 0.2s;
 }
 
 .project-card img {
@@ -164,6 +165,7 @@ main {
 .project-card .title {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .project-card .title h3 {
@@ -178,4 +180,8 @@ main {
 
 .project-card .icons .devicon-github-original {
   font-size: 1.4rem;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
 }
