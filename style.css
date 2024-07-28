@@ -9,6 +9,7 @@
   --whiteColor: #fafafa;
   --blackColor: #20252c;
   --primaryColor: #50a587;
+  --linkAccent: #377760;
   --smallTextColor: #565656;
 
   /* Variables */
@@ -67,7 +68,7 @@ a,
 a:link,
 a:visited {
   font-weight: 600;
-  color: var(--primaryColor);
+  color: var(--linkAccent);
 }
 
 .container {
