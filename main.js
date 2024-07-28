@@ -26,7 +26,7 @@ function App() {
   const container = document.querySelector(".projects-grid");
   container.innerHTML += ProjectCard(
     "Weather App",
-    "Description 1",
+    "View your weather information such as current temperature, humidity, chance of rain, UV radiation and more",
     "weather-app.png",
     {
       github: "https://github.com/ErickBGomez/weather-project",
@@ -36,7 +36,7 @@ function App() {
 
   container.innerHTML += ProjectCard(
     "To-Do App",
-    "Description 2",
+    "Save your most important tasks, such as daily activities and plans for future days",
     "todo-app.png",
     {
       github: "https://github.com/ErickBGomez/todo-project",
@@ -46,7 +46,7 @@ function App() {
 
   container.innerHTML += ProjectCard(
     "Belen's Restaurant Design",
-    "Description 3",
+    "Explore a tab-based website with the best of Salvadoran food",
     "belen-restaurant.png",
     {
       github: "https://github.com/ErickBGomez/restaurant-page",
@@ -56,7 +56,7 @@ function App() {
 
   container.innerHTML += ProjectCard(
     "Tic Tac Toe Project",
-    "Description 4",
+    "Have a fun time with your friends with a game of classic tic tac toe. Or you can try to beat the computer with its impossible algorithm",
     "tic-tac-toe.png",
     {
       github: "https://github.com/ErickBGomez/tic-tac-toe",
@@ -66,7 +66,7 @@ function App() {
 
   container.innerHTML += ProjectCard(
     "Calculate It!",
-    "Description 5",
+    "You can do basic arithmetic with this calculator... But you can also find more than just some easter eggs out there...",
     "calculate-it.png",
     {
       github: "https://github.com/ErickBGomez/calculator-project",
@@ -76,7 +76,7 @@ function App() {
 
   container.innerHTML += ProjectCard(
     "Leaf Library",
-    "Description 6",
+    "Have all the information about your favorite books in one place. This way you can manage them more easily",
     "leaf-library.png",
     {
       github: "https://github.com/ErickBGomez/library-project",
