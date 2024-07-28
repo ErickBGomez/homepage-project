@@ -236,3 +236,10 @@ footer img {
   align-items: center;
   gap: 10px;
 }
+
+@media (max-width: 824px) {
+  header {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
