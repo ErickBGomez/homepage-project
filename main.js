@@ -9,10 +9,10 @@ function ProjectCard(title, description, img, links) {
               <div class="title">
                 <h3>${title}</h3>
                 <div class="icons">
-                  <a href="${links.github}" target="_blank" class="icon-link">
+                  <a href="${links.github}" target="_blank" class="icon-link" aria-label="Open repository of ${title}">
                     <i class="devicon-github-original"></i>
                   </a>
-                  <a href="${links.project}" target="_blank" class="icon-link">
+                  <a href="${links.project}" target="_blank" class="icon-link" aria-label="Open live view of ${title}">
                     <i class="material-symbols-outlined">open_in_new</i>
                   </a>
                 </div>
