@@ -33,6 +33,56 @@ function App() {
       project: "https://erickbgomez.github.io/weather-project/",
     }
   );
+
+  container.innerHTML += ProjectCard(
+    "To-Do App",
+    "Description 2",
+    "todo-app.png",
+    {
+      github: "https://github.com/ErickBGomez/todo-project",
+      project: "https://erickbgomez.github.io/todo-project/",
+    }
+  );
+
+  container.innerHTML += ProjectCard(
+    "Belen's Restaurant Design",
+    "Description 3",
+    "belen-restaurant.png",
+    {
+      github: "https://github.com/ErickBGomez/restaurant-page",
+      project: "https://erickbgomez.github.io/restaurant-page/",
+    }
+  );
+
+  container.innerHTML += ProjectCard(
+    "Tic Tac Toe Project",
+    "Description 4",
+    "tic-tac-toe.png",
+    {
+      github: "https://github.com/ErickBGomez/tic-tac-toe",
+      project: "https://erickbgomez.github.io/tic-tac-toe/",
+    }
+  );
+
+  container.innerHTML += ProjectCard(
+    "Calculate It!",
+    "Description 5",
+    "calculate-it.png",
+    {
+      github: "https://github.com/ErickBGomez/calculator-project",
+      project: "https://erickbgomez.github.io/calculator-project/",
+    }
+  );
+
+  container.innerHTML += ProjectCard(
+    "Leaf Library",
+    "Description 6",
+    "leaf-library.png",
+    {
+      github: "https://github.com/ErickBGomez/library-project",
+      project: "https://erickbgomez.github.io/library-project/",
+    }
+  );
 }
 
 App();
